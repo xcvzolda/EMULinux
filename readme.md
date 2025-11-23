@@ -12,3 +12,6 @@ EMULinux is based of the JSLinux project.
 
 # About
 EMULinux was made with the idea to have an more advanced emualtor for the web. EMULinux can run also in the backround linux distros so websites can be more advanced. EMULinux works on the client side too so no server overhead (execpt normal http/https stuff).
+
+# Copyright
+All files in BIOS Directory is forked from https://github.com/levskaya/jslinux-deobfuscated. Copyright © 2011-2021 Fabrice Bellard
