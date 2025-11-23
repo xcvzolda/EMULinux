@@ -109,9 +109,9 @@ function checkbinaries() {
 
 function load_binaries() {
     console.log("requesting binaries");
-    loadbinary("vmlinux-2.6.20.bin", 0);
-    loadbinary("root.bin", 1);
-    loadbinary("linuxstart.bin", 2);
+    loadbinary("linux/vmlinux-2.6.20.bin", 0);
+    loadbinary("linux/root.bin", 1);
+    loadbinary("linux/linuxstart.bin", 2);
 
     console.log("waiting for binaries to finish loading...");
     checkbinaries();
